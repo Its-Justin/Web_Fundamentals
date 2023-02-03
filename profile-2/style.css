@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    color: rgb(158, 156, 156);
+}
+
+button {
+    background-color: rgb(19, 117, 209);
+    padding: 5px;
+}
+
+.color-white {
+    color: white;
+}
+
+body {
+    background-color: white;
+}
+
+.border-color {
+    border-style: solid;
+    border-color: silver;
+}
+
+.header-text {
+    font-size: x-large;
+    margin: 10px;
+}
+
+.black-header {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.left-column {
+    padding-right: 20px;
+}
+
+.text-decor {
+    text-decoration: none;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+/* ========================== NAVBAR ======================== */
+ul {
+    list-style: none;
+    margin-left: 20px;
+}
+
+li {
+    display: inline-flex;
+    margin-right: 10px;
+}
+
+.navbar-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.navbar-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 710px;
+}
+
+.navbar-left {
+display: flex;
+align-items: center;
+
+}
+
+.navbar-right {
+    align-items: center;
+    padding-left: 150px;
+}
+/* ============================= LEFT COLUMN ================================= */
+.profile-box {
+    width: 400px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.profile-info {
+    padding-top: 65px;
+    padding-left: 15px;
+
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profile-info img {
+    width: 13px;
+    margin-right: 8px;
+}
+
+.profile-header {
+    display: flex;
+    height: 100px;
+    width: 400px;
+    background-color: rgb(19, 117, 209);
+}
+
+.itachi img {
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 100px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: silver;
+}
+/* ========================= EDUCATION BOX ============================== */
+.education-box {
+    margin-top: 20px;
+    width: 400px;
+    background-color: white;
+}
+
+.education-info {
+    margin-top: 10px;
+    margin-left: 15px;
+    padding-bottom: 10px;
+}
+/* =============================== Request Box ==================================== */
+.request-box {
+    margin-bottom: 20px;
+}
+
+.request-number {
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.accept-box {
+    display: flex;
+    align-items: center;
+}
+
+.accept-deny img {
+    width: 40px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+/* ================================== CONNECTIONS =================================== */
+.connections-number {
+    padding: 3px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.users {
+    padding: 15px;
+}
+
+.users a {
+margin-top: 100px;
+}
+
+.users p {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.users img {
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.view-more-link {
+    padding: 10px;
+}
